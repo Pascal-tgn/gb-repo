@@ -8,7 +8,7 @@
 
 import datetime
 
-print("Beer Inspector 1.1")
+print("Beer Inspector 1.3")
 name = input("Введите ваше имя: ")
 year = int(input("Введите год рождения: "))
 now = int(datetime.datetime.today().strftime("%Y"))
