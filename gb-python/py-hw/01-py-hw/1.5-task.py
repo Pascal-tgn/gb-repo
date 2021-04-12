@@ -22,7 +22,7 @@ if debit > credit:
           f"Выручка больше издержек\n"
           f"Баланс: {profit}\n"
           f"Рентабельность: {profitability}%\n"
-          f"На одного сотрудника: {staff_prof}"
+          f"На одного сотрудника: {staff_prof}\n"
           f"---------------------------\n")
 
 elif debit == credit:
