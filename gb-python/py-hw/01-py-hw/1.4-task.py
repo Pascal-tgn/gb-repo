@@ -13,8 +13,6 @@ if a <= 0:
 else:
     while a > 0:
         b.append(a % 10)
-        print(b)
         a = a // 10
-        print(a)
     c = max(b)
     print(f"Самая большая цифра в заданном числе: {c}")
